@@ -1,0 +1,64 @@
+Agenda:
+1. Core Components of html
+    Tags
+    Elements
+    Attributes
+2. Tag Types
+     Text tags
+     ListTags
+     Formatting Tags
+     Blockquote tags
+     codeTags
+---------------------------------------------------------------------------------------------
+What are Tags?
+Tag: 
+predefined keyword that acts like a properties in the document.
+these are into two type
+paired tag/conatinertags: 
+syntax: <openingtagname></closingtagname>
+<p></p>
+<h1><h1>
+<title> </title>
+<section> <?sectionn,table...
+single tag/selfenclosing tags
+<meta>
+<img>
+<hr>
+<br>
+--------------------------------------------------------------------------------------
+Attributes?
+These provide additonal information about the tags
+these are classified into two types
+Global and Element specific
+Global : id,style,title,...
+ElementSpcific: href,src,alt...
+---------------------------------------------------------------------------------------
+Elements? :
+Elemenst are the conentent betwenn the tags
+syntax:
+<tag>content</tag>
+<strong>Hllo<?strong>
+<img>
+
+
+classified into 3 types
+block:
+ occupies 100% space, the next element will start from a new row
+ h1,h6,table,li
+inline: elemnts will take how ever space it wants that much only,next element can sit next to thata if it is also an inline elements
+ex: a,input,span,audio,video,iframe
+inline-block- behaves like block and inline
+Ex: img
+
+
+-------------------------------------------------------------------------------------------
+2. Tag Types
+     Text tags
+     ListTags
+     Formatting Tags
+     Blockquote tags
+     codeTags
+Text Tags: Heading puposed
+h1,p,pre,span
+
+Types of Tags?

@@ -1,0 +1,133 @@
+
+Html
+
+<!-- 
+
+
+What is html?
+Hyper text markup Language.
+
+Structure  and to display the conent on the web
+
+HyperText- when you click on some page/element it is navigating to anotherpage/image/anyother conetent
+like a,iframes,navabar
+Markup language- <>,standard way of writing
+
+static,
+predefined tags
+case-insenstive
+
+HIstory and vsersions of htl
+
+Html - Invented by Tim Berners Lee- 1991  at CERN.( European reserach)
+1991- Basic text and links
+1995- Forms and table
+1997- javascript(Functionalities) and css(styling), iframes, more tags
+
+1999- Multimedia support and interactivity
+XHTML 1.02000HTML reformulated using XML rules
+2014- HTML5-Semantic elements, multimedia tags, form- email,phone, apis,local storage,
+moble supprt
+
+w3c is responible for bringinth the new updates-world wide web Consolidate
+
+
+
+Features of html:
+Semantic elements-meaningful content- header, footer, article,canvas,audio,video
+h1, p , div-non semmatic tags
+differnce bteween html4 and html 5
+
+
+
+
+
+structure of html:
+<!DOCTYPE html> - qrick mode
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Im h1</h1>
+    
+</body>
+</html>
+
+<!DOCTYPE html>- declare the document type as html5
+<html> root elemnet
+
+<head> meta tags and title
+<meta> meta tags contains meta data
+meta data-information that describes  other data.
+
+UTF-8- Unicode transformation format
+<body> contains visble content of the webpages , such as text, images and other elemnets
+
+
+To run the html we need .html and live server, you can download it from your extensions..
+and click on the live serever and then your first page is displayed in the browser then 
+The browser receives the HTML document and its built-in HTML parser parses the markup. <!DOCTYPE html> tells the browser to use standards mode, and then the parser processes elements such as <html>, <head>, <body>, <h1>, etc., and constructs the DOM.”
+
+ Core Components - Main/building blocks to build a webpage
+Tags- These are prdefined keyword
+      These have some meaning and builtin props to be displayed on the webpage.
+      to structure the webpages
+
+
+
+      synatx: <tagname> </tagname>
+      examples <p></p>
+
+
+
+      Types of tags- Paired tags/container tags -<p></p><h1></h1>
+                    self-closing tags/void tags/single- <img/>,<hr>,<br>,<meta>
+                     Heading tags -h1 to h6
+                    structured tags- article,dic,section
+                    Formatting tags - bold,italit,em
+-----------------------------------------------------------------------------------
+Atributes- Which gives additonal information
+        height, width, style, class, id, src,alt, href
+
+
+        synatx:
+        <tagName attributeName = "AttributeValue"> Content </tagName>
+
+
+
+           Types
+           element specific-  href, alt,src,type
+           Global- id,class,style,height,width,title
+-------------------------------------------------------------------------------------
+               
+Elements-  Tags+content or Tags+Content+attributes
+   syntax:<tagname> content </tagname>
+            types of elements
+            -block - These are the elemnts lawsy diplays in a nwline
+                     occupies the entire row
+            -inline- These are the elemnsts displayed on the same line
+                     height and width are not applicable
+                     occupies how much space it requires
+                    <img> <b> <button></button> <input>
+            inline-block - converting inline elemnt to block
+            Inline you can apply height,width,margin left and right
+            But Img is alose an inline still we can apply height and width since it has inbuilt option,
+                           elmens are displayed on a newline but they ca be used as a inline elemnts
+
+
+    Golden rules
+    Never write a block line inside Inline elemnts
+       <b>Im the boldest and <p>Im the para inside the inline{b}</p></b>
+            
+
+
+
+
+
+
+
+-->

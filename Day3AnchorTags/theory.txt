@@ -1,0 +1,12 @@
+a - anchor tag
+
+  Thi helps to create hypertext in the documenst, that means navigating from one place to another place
+
+
+  a - inline element and has element specifi attributes
+  href - referece of the file(destination)
+  target-blank/newwindow
+  download
+
+  <a href="#">Home</a> when you dont know the distination path yet keep it in #
+  <a href="www.google.com>
